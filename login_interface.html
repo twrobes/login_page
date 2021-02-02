@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            text-transform: capitalize;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+
+        .container1 {
+            background-color: #B6DA32;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .container2 {
+            text-align: center;
+            background-color: #E8E8E8;
+            width: 30rem;
+            padding: 3rem 1rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 5px 5px 5px #89A329;
+            font-size: 2rem;
+        }
+
+        .container2 div {
+            margin-bottom: 3rem;
+        }
+
+        button {
+            padding: 1rem 4.78rem;
+            background-color: #56C9E4;
+            border-style: hidden;
+            color: #EDEDED;
+            font-size: 1.8rem;
+        }
+
+        .login {
+            color: #717171;
+        }
+
+        input {
+            text-align: center;
+            background-color: #D3D3D3;
+            padding: 1rem 0.7rem;
+            border-style: hidden;
+            font-size: 1.3rem;
+        }
+
+        button:active {
+            background: #72CEE4;
+            -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+            -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+            outline: none;
+        }
+
+        .pwd_recovery {
+            font-size: 1rem;
+            color: rgb(255, 102, 102)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="container2">
+            <div class="icon">
+                <i class="fa fa-user"></i>
+            </div>
+            <div class="header">
+                <p>
+                    User Login
+                </p>
+            </div>
+            <div class="login">
+                <input type="text" placeholder="Username" />
+            </div>
+            <div class="login">
+                <input type="text" placeholder="Password" />
+            </div>
+            <div class="button">
+                <button type="button">LOGIN</button>
+            </div>
+            <div class="pwd_recovery">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
